@@ -1,0 +1,22 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": [
+    ".eslintrc-best-practices",
+    ".eslintrc-ecmascript-6",
+    ".eslintrc-nodejs-and-commonjs",
+    ".eslintrc-possible-errors",
+    ".eslintrc-stylistic-issues",
+    ".eslintrc-variables"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  }
+}
